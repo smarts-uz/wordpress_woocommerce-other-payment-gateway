@@ -1,0 +1,7 @@
+.payment_box.payment_method_other_payment {
+  display: none !important;
+}
+
+.seller-installment-price {
+  font-weight: 800;
+}
