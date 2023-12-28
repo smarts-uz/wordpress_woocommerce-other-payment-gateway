@@ -213,9 +213,9 @@ class WC_Other_Payment_Gateway extends WC_Payment_Gateway{
 			// installment price per month in year is 35% of total price
 			$installment_price = ($total_price + $total_price/100*35)/12;
 			$formatted_price = number_format($installment_price, 0, '.', ' ');
-			return "Muddatli to'lov <span class='seller-installment-price'>" . $formatted_price . "</span> so'mdan/oyiga";
+			return "Installment plan <span class='seller-installment-price'>" . $formatted_price . "</span> UZS per month";
 		} else {
-			return "Muddatli to'lov";
+			return "Installment plan";
 		}
 	}
 
